@@ -72,12 +72,19 @@ font-size:.7em;
 <div id="ad">
 Help Save The Dogs!<br><p style="font-size:.8em;">50% off Happy New Year 2018 Sale!</p>
 <p style="font-size:.5em;">The Endangered Rainbow Dogs need your help!<br> Donate now or become a member to help them!</p>
-<button id="purchase"><a href="https://caproductions.github.io/poopwebsite/a_poop_website_shop">Purchase Membership!</a></button><br>
+<button id="purchase">Purchase Membership!</button><br>
 <button id="close">close</button>
 <script>
 $(document).ready(function(){
   $("button#close").click(function(){
     $("div#ad").toggle("medium");
+  });
+});
+</script>
+  <script>
+$(document).ready(function(){
+  $("button#purchase").click(function(){
+    location.replace('https://caproductions.github.io/poopwebsite/a_poop_website_shop');
   });
 });
 </script>
