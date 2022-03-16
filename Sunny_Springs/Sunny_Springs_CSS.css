@@ -1,7 +1,6 @@
 body {
     background-color: rgb(66, 135, 245);
-    color: rgb(96, 187, 240);
-    font-family: "Quicksand", sans-serif;
+    color: rgb(96, 187, 240)
 }
 h1 {
     font-family: "Righteous", cursive;
@@ -16,6 +15,7 @@ h2 {
 }
 p {
     font-size: 20px;
+    font-family: "Quicksand", sans-serif;
 }
 .fineprint {
     font-size: 10px;
