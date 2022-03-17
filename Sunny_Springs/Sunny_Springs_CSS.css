@@ -34,6 +34,7 @@ p {
 }
 #pop-buy {
     text-align: center;
+    align: center;
     font-size: 30px;
     color: rgb(66, 207, 165);
     background-color: rgb(26, 110, 85);
