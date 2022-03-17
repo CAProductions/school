@@ -33,11 +33,22 @@
             Sunny Springs is an 1sland in the Gulf of Mexico, which we all know is right by India. It has the nice temperatures of around 100° F to 300° F, with occasional heat waves of 350. That is because it is situated on the side of an active volcan0, and that gives us great views of lava in our faces! 
         </p>
         
-        <div class="popup">
-            <h1></h1>
-            <p></p>
+        <div id="popup">
+            <h1>Go to Sunny Springs now!</h1>
+            <p>Sunny Springs is a beautiful luxury resort village, with calm seas prime for surfing, and warm beaches.</p>
+            <button id="pop-buy">Buy Ticket Now!</button>
+            <button id="pop-close">close</button>
         </div>
-        
+        <script>
+            $("#pop-close").click(function(){
+                $("#popup").hide();
+                $("#pop-close").hide();
+                $("#pop-buy").hide();
+            });
+            $("#pop-buy").click(function(){
+                window.open("https://caproductions.github.io/school/Sunny_Springs/Sunny_Springs_2.html", _self);
+            });
+        </script>
         <!-- This is all unimportant, fake legal info. -->
         <h2> Disclaimer: </h2>
         <p class="legal">
