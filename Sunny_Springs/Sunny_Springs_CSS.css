@@ -1,6 +1,7 @@
 body {
     background-color: rgb(66, 135, 245);
-    color: rgb(96, 187, 240)
+    color: rgb(96, 187, 240);
+    font-family: "Quicksand", sans-serif;
 }
 h1 {
     font-family: "Righteous", cursive;
@@ -15,7 +16,6 @@ h2 {
 }
 p {
     font-size: 20px;
-    font-family: "Quicksand", sans-serif;
 }
 .fineprint {
     font-size: 10px;
@@ -24,6 +24,20 @@ p {
     font-size: 15px;
     font-family: "IBM Plex Mono", monospace;
 }
-.popup {
+#popup {
     position: fixed;
+    color: rgb(66, 207, 165);
+    background-color: rgb(26, 110, 85);
+}
+#pop-buy {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(66, 207, 165);
+    background-color: rgb(26, 110, 85);
+}
+#pop-close {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(26, 110, 85);
+    background-color: rgb(66, 207, 165);
 }
