@@ -28,6 +28,7 @@ p {
     position: fixed;
     color: rgb(66, 207, 165);
     background-color: rgb(26, 110, 85);
+    border-color: rgb(66, 207, 165);
 }
 #pop-buy {
     text-align: center;
