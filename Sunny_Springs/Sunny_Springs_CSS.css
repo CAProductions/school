@@ -48,3 +48,7 @@ p {
     background-color: rgb(66, 207, 165);
     z-index: 11;
 }
+.donate {
+    background-color: rgb(96, 187, 240);
+    color: rgb(32, 52, 107);
+}
