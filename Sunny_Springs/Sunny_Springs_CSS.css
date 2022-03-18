@@ -51,4 +51,6 @@ p {
 .donate {
     background-color: rgb(96, 187, 240);
     color: rgb(32, 52, 107);
+    width: 50px;
+    text-align: center;
 }
